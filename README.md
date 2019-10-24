@@ -1,3 +1,3 @@
 # KaBaGent
 
-We used a MIT [LISENCE](./lisence.md) as it fits our needs perfectly.
+We used a MIT [LISENCE](./LISENCE.md) as it fits our needs perfectly.
