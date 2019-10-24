@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2019][kabagent redesign team]
+Copyright (c) 2019 [KaBaGent Redesign Team](https://github.com/orgs/BeCode-Team-Exercises/teams/kabagent-redesign-team)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
