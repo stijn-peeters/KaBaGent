@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2019 [KaBaGent Redesign Team](https://github.com/orgs/BeCode-Team-Exercises/teams/kabagent-redesign-team)
 

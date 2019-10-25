@@ -1,6 +1,6 @@
 # Project: Teamwork
 
-![](https://blog.teamwork.com/wp-content/uploads/2017/09/shutterstock_343048862.jpg)
+![teamwork image](https://blog.teamwork.com/wp-content/uploads/2017/09/shutterstock_343048862.jpg)
 
 _This readme and repo where created as part of an exercise during the BeCode web-developer course._
 
