@@ -53,8 +53,8 @@ p {
 
 /*  Hero  */
 .hero-section {
-  background: url("../images/hero-image.jpg") no-repeat center top/cover;
   height: 100vh;
+  color: brown;
 }
 
 .hero-content {
@@ -62,20 +62,6 @@ p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: white;
-  font-weight: 700;
-}
-
-/* nav */
-.logo {
-  font-weight: 700;
-  color: white;
-}
-
-nav ul li a {
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 /* utilities */
