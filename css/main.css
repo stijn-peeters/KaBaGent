@@ -53,7 +53,7 @@ p {
 
 /*  Hero  */
 .hero-section {
-  background: url("../images/hero-image.jpg") no-repeat center top/cover;
+  background: url("../images/hero-image-smaller.jpeg") no-repeat center top/cover;
   height: 100vh;
 }
 
