@@ -1,23 +1,14 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.bg-dark {
-  background-color: #634739 !important;
-}
-
-.dropdown-menu {
-  background-color: #fcf5ed;
+  box-sizing: border-box;
 }
 
 /*  General  */
 body {
   color: #ffffff;
   font-weight: 400;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -27,7 +18,7 @@ h2,
 h3,
 h4 {
   margin: 30px 0 0;
-  font-family: 'Fanwood Text', serif;
+  font-family: "Fanwood Text", serif;
 }
 
 h1 {
@@ -59,7 +50,6 @@ p {
   margin-bottom: 5px;
 }
 
-/* Page title */
 /*  Hero  */
 .hero-section {
   background: url("../images/hero-image.jpg") no-repeat center top/cover;
@@ -69,8 +59,7 @@ p {
 .hero-content {
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
   font-weight: 700;
 }
@@ -98,13 +87,4 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-.dropdown {
-  z-index: 1;
-}
-
-.lead {
-  font-size: 1.4rem;
-}
-
-/* Media Queries */
 /*# sourceMappingURL=main.css.map */

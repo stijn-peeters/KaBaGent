@@ -7,6 +7,15 @@
 @import 'variables';
 
 
+.bg-dark{
+  background-color: $dark-color !important;
+}
+
+.dropdown-menu{
+  background-color: $accent-color;
+}
+
+
 /*  General  */
 body {
     color: #ffffff;
