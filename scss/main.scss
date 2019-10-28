@@ -16,6 +16,7 @@
 }
 
 /*  General  */
+
 body {
   color: #ffffff;
   font-weight: 400;
@@ -130,6 +131,27 @@ nav ul li a {
 /* Contact */
 .imgwinkel3 {
   height: 50vh;
+}
+
+/* Media Queries */
+/* utilities */
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  min-height: 32px;
+}
+
+.title-uppercase {
+  text-transform: uppercase;
+}
+
+.dropdown {
+  z-index: 1;
+}
+
+.lead {
+  font-size: 1.4rem;
 }
 
 /* Media Queries */
