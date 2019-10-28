@@ -96,4 +96,14 @@ nav ul li a {
 .title-uppercase {
   text-transform: uppercase;
 }
+
+.dropdown {
+  z-index: 1;
+}
+
+.lead {
+  font-size: 1.4rem;
+}
+
+/* Media Queries */
 /*# sourceMappingURL=main.css.map */
