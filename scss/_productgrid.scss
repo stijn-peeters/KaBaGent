@@ -11,7 +11,16 @@
         grid-template-columns: repeat(3,1fr);
     }*/
 
-    img{
-        height: 300px;
-    }
+
 }
+
+@media (max-width: 680px) { 
+
+    .productgrid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:auto;
+    }
+
+
+ }
