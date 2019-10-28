@@ -1,159 +1,264 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="favicon-icon.png" sizes="16x16" />
-        <link rel="icon" type="image/png" href="favicon-icon.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="favicon-icon.png" sizes="96x96" />
-    
-        <!-- Bootstrap CSS -->
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
-        />
-        <!-- Google Fonts-->
-        <link
-          href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,700|Fanwood+Text&display=swap"
-          rel="stylesheet"
-        />
-        <!-- fontawesome -->
-        <script
-          src="https://kit.fontawesome.com/f60e860403.js"
-          crossorigin="anonymous"
-        ></script>
-        <!-- Stylesheet CSS -->
-        <link rel="stylesheet" href="css/main.css" />
-    
-        <!-- Bootstrap CSS -->
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
-        />
-        <!-- Google Fonts-->
-        <link
-          href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,700|Fanwood+Text&display=swap"
-          rel="stylesheet"
-        />
-        <!-- fontawesome -->
-        <script
-          src="https://kit.fontawesome.com/f60e860403.js"
-          crossorigin="anonymous"
-        ></script>
-        <!-- Stylesheet CSS -->
-        <link rel="stylesheet" href="css/main.css" />
-    
-        <title>KaBaGent - Sierraden</title>
-      </head>
-<body>
-  <!-- highlight -->
-  <div class="alert alert-dark border-0 container-fluid my-0 p-1 text-center" role="alert"
-    style="background-color:#fcf5ed">
-    Openingsuren hier!
-  </div>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand logo text-light title-uppercase" href="index.html">kabagent</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon-icon.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-icon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-icon.png" sizes="96x96" />
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-        <ul class="navbar-nav  mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="about.html">Over ons</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link text-white dropdown-toggle" href="handtassen.html" id="navbarDropdownMenuLink"
-              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Handtassen
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-dark" href="handtassen.html#crossbody">Crossbody</a>
-              <a class="dropdown-item text-dark" href="handtassen.html#handmodel">Handmodel</a>
-              <a class="dropdown-item text-dark" href="handtassen.html#rugtas">Rugtas</a>
-              <a class="dropdown-item text-dark" href="handtassen.html#schoudertas">Schoudertas</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link text-white dropdown-toggle" href="sierraden.html" id="navbarDropdownMenuLink"
-              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Sieraden
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-dark" href="sierraden.html#armbanden">Armbanden</a>
-              <a class="dropdown-item text-dark" href="sierraden.html#kettingen">Kettingen</a>
-              <a class="dropdown-item text-dark" href="sierraden.html#oorringen">Oorringen</a>
-              <a class="dropdown-item text-dark" href="sierraden.html#ringen">Ringen</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,700|Fanwood+Text&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/f60e860403.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,700|Fanwood+Text&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/f60e860403.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>KaBaGent - Sierraden</title>
+  </head>
+  <body>
+    <!-- highlight -->
+    <div
+      class="alert alert-dark border-0 container-fluid my-0 p-1 text-center"
+      role="alert"
+      style="background-color:#fcf5ed"
+    >
+      Openingsuren hier!
     </div>
-  </nav>
-  <!-- End Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a
+          class="navbar-brand logo text-light title-uppercase"
+          href="index.html"
+          >kabagent</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <!--Intro title section-->
-  <div class="container-fluid text-center p-5 text-body" style="background-color:#fcf5ed;">
-    <div class="container p-3">
-      <h2 class="mt-0">Sieraden</h2>
-    </div>
-  </div>
-  <div class="jumbotron-fluid p-4 p-md-5 text-left text-dark">
-    <div class="row">
-      <div class="col-md-6 p-3  my-auto">
-          <p class="lead my-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aut inventore repellendus eos corporis aspernatur eaque qui consequatur ratione quod ab necessitatibus, assumenda, totam quo. Impedit possimus id amet ad, reiciendis, molestiae nemo deserunt error sit illo accusamus quisquam ullam, alias ipsam culpa non facilis sequi. Possimus aliquid quibusdam necessitatibus.
-          </p>
-        
-          
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav  mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">Over ons</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-white dropdown-toggle"
+                href="handtassen.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Handtassen
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a
+                  class="dropdown-item text-dark"
+                  href="handtassen.html#crossbody"
+                  >Crossbody</a
+                >
+                <a
+                  class="dropdown-item text-dark"
+                  href="handtassen.html#handmodel"
+                  >Handmodel</a
+                >
+                <a class="dropdown-item text-dark" href="handtassen.html#rugtas"
+                  >Rugtas</a
+                >
+                <a
+                  class="dropdown-item text-dark"
+                  href="handtassen.html#schoudertas"
+                  >Schoudertas</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-white dropdown-toggle"
+                href="sierraden.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Sieraden
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a
+                  class="dropdown-item text-dark"
+                  href="sierraden.html#armbanden"
+                  >Armbanden</a
+                >
+                <a
+                  class="dropdown-item text-dark"
+                  href="sierraden.html#kettingen"
+                  >Kettingen</a
+                >
+                <a
+                  class="dropdown-item text-dark"
+                  href="sierraden.html#oorringen"
+                  >Oorringen</a
+                >
+                <a class="dropdown-item text-dark" href="sierraden.html#ringen"
+                  >Ringen</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-6 px-0">
-        <img class="img-fluid" src="images/sieraden/jewels-general3.jpg" alt="store image" />
-      </div>
+    </nav>
+    <!-- End Navbar -->
 
-    </div>
-  </div>
-  <!--End Intro title section-->
-
-  <section id="armbanden" class="mb-5">
     <!--Intro title section-->
-    <div class="container-fluid text-center p-5 text-body" style="background-color:#fcf5ed;">
+    <div
+      class="container-fluid text-center p-5 text-body"
+      style="background-color:#fcf5ed;"
+    >
       <div class="container p-3">
-        <h2 class="mt-0">Armbanden</h2>
+        <h2 class="mt-0">Sieraden</h2>
+      </div>
+    </div>
+    <div class="jumbotron-fluid p-4 p-md-5 text-left text-dark">
+      <div class="row">
+        <div class="col-md-6 p-3  my-auto">
+          <p class="lead my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aut
+            inventore repellendus eos corporis aspernatur eaque qui consequatur
+            ratione quod ab necessitatibus, assumenda, totam quo. Impedit
+            possimus id amet ad, reiciendis, molestiae nemo deserunt error sit
+            illo accusamus quisquam ullam, alias ipsam culpa non facilis sequi.
+            Possimus aliquid quibusdam necessitatibus.
+          </p>
+        </div>
+        <div class="col-md-6 px-0">
+          <img
+            class="img-fluid"
+            src="images/sieraden/jewels-general3.jpg"
+            alt="store image"
+          />
+        </div>
       </div>
     </div>
     <!--End Intro title section-->
-    <div class="container-fluid">
-      <div class="productgrid">
-        <img src="images/sieraden/armbanden/arm-batucada-jewel1.jpg" alt="" title="" class="img-fluid">
-        <img src="images/sieraden/armbanden/arm-franckherval-jewel1.jpg" alt="" title="" class="img-fluid">
-        <img src="images/sieraden/armbanden/arm-franckherval-jewel2.jpg" alt="" title="" class="img-fluid">
-        <img src="images/sieraden/armbanden/arm-zoeca-jewel2.jpg" alt="" title="" class="img-fluid">
-        <img src="images/sieraden/armbanden/arm-zoeca-jewel3.jpg" alt="" title="" class="img-fluid">
 
-
-      </div>
-    </div>
-  </section>
-
-  <section id="kettingen" class="mb-5">
+    <section id="armbanden" class="mb-5">
       <!--Intro title section-->
-      <div class="container-fluid text-center p-5 text-body" style="background-color:#fcf5ed;">
+      <div
+        class="container-fluid text-center p-5 text-body"
+        style="background-color:#fcf5ed;"
+      >
+        <div class="container p-3">
+          <h2 class="mt-0">Armbanden</h2>
+        </div>
+      </div>
+      <!--End Intro title section-->
+      <div class="container-fluid">
+        <div class="productgrid">
+          <img
+            src="images/sieraden/armbanden/arm-batucada-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/armbanden/arm-franckherval-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/armbanden/arm-franckherval-jewel2.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/armbanden/arm-zoeca-jewel2.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/armbanden/arm-zoeca-jewel3.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="kettingen" class="mb-5">
+      <!--Intro title section-->
+      <div
+        class="container-fluid text-center p-5 text-body"
+        style="background-color:#fcf5ed;"
+      >
         <div class="container p-3">
           <h2 class="mt-0">Kettingen</h2>
         </div>
@@ -161,78 +266,205 @@
       <!--End Intro title section-->
       <div class="container-fluid">
         <div class="productgrid colspan-3">
-          <img src="images/sieraden/kettingen/ket-batucada-jewel1.jpg" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-batucada-jewel2.png" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-batucada-jewel3.jpg" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-batucada-jewel4.jpg" alt="" title="" class="img-fluid">
+          <img
+            src="images/sieraden/kettingen/ket-batucada-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-batucada-jewel2.png"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-batucada-jewel3.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-batucada-jewel4.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
 
-          <img src="images/sieraden/kettingen/ket-zoeca-jewel2.jpg" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-zoeca-jewel1.jpg" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-zoeca-jewel3.jpg" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-zoeca-jewel4.jpg" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-zoeca-jewel5.jpg" alt="" title="" class="img-fluid">
-          <img src="images/sieraden/kettingen/ket-zoeca-jewel6.jpg" alt="" title="" class="img-fluid">
-        
-    
+          <img
+            src="images/sieraden/kettingen/ket-zoeca-jewel2.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-zoeca-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-zoeca-jewel3.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-zoeca-jewel4.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-zoeca-jewel5.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/kettingen/ket-zoeca-jewel6.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
         </div>
       </div>
     </section>
 
     <section id="oorringen" class="mb-5">
-        <!--Intro title section-->
-        <div class="container-fluid text-center p-5 text-body" style="background-color:#fcf5ed;">
-          <div class="container p-3">
-            <h2 class="mt-0">Oorringen</h2>
-          </div>
+      <!--Intro title section-->
+      <div
+        class="container-fluid text-center p-5 text-body"
+        style="background-color:#fcf5ed;"
+      >
+        <div class="container p-3">
+          <h2 class="mt-0">Oorringen</h2>
         </div>
-        <!--End Intro title section-->
-        <div class="container-fluid">
-          <div class="productgrid">
-            <img src="images/sieraden/oorringen/oor-batucada-jewel1.jpg" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-batucada-jewel2.png" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-franckherval-jewel1.jpg" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-franckherval-jewel2.jpg" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-franckherval-jewel3.jpg" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-franckherval-jewel4.jpg" alt="" title="" class="img-fluid">
+      </div>
+      <!--End Intro title section-->
+      <div class="container-fluid">
+        <div class="productgrid">
+          <img
+            src="images/sieraden/oorringen/oor-batucada-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-batucada-jewel2.png"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-franckherval-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-franckherval-jewel2.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-franckherval-jewel3.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-franckherval-jewel4.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
 
-            <img src="images/sieraden/oorringen/oor-zoeca-jewel4.jpg" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-zoeca-jewel3.jpg" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-zoeca-jewel2.jpg" alt="" title="" class="img-fluid">
-            <img src="images/sieraden/oorringen/oor-zoeca-jewel5.jpg" alt="" title="" class="img-fluid">
-           
-
-          </div>
+          <img
+            src="images/sieraden/oorringen/oor-zoeca-jewel4.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-zoeca-jewel3.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-zoeca-jewel2.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/oorringen/oor-zoeca-jewel5.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
         </div>
-      </section>
+      </div>
+    </section>
 
-      
+    <section id="ringen" class="mb-5">
+      <!--Intro title section-->
+      <div
+        class="container-fluid text-center p-5 text-body"
+        style="background-color:#fcf5ed;"
+      >
+        <div class="container p-3">
+          <h2 class="mt-0">Ringen</h2>
+        </div>
+      </div>
+      <!--End Intro title section-->
+      <div class="container-fluid">
+        <div class="productgrid colspan-4">
+          <img
+            src="images/sieraden/ringen/rin-franckherval-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/ringen/rin-franckherval-jewel2.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/ringen/rin-franckherval-jewel3.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/ringen/ring-franckherval-jewel4.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
 
-      <section id="ringen" class="mb-5">
-          <!--Intro title section-->
-          <div class="container-fluid text-center p-5 text-body" style="background-color:#fcf5ed;">
-            <div class="container p-3">
-              <h2 class="mt-0">Ringen</h2>
-            </div>
-          </div>
-          <!--End Intro title section-->
-          <div class="container-fluid">
-            <div class="productgrid colspan-4">
-              <img src="images/sieraden/ringen/rin-franckherval-jewel1.jpg" alt="" title="" class="img-fluid">
-              <img src="images/sieraden/ringen/rin-franckherval-jewel2.jpg" alt="" title="" class="img-fluid">
-              <img src="images/sieraden/ringen/rin-franckherval-jewel3.jpg" alt="" title="" class="img-fluid">
-              <img src="images/sieraden/ringen/ring-franckherval-jewel4.jpg" alt="" title="" class="img-fluid">
+          <img
+            src="images/sieraden/ringen/ring-zoeca-jewel1.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+          <img
+            src="images/sieraden/ringen/ring-zoeca-jewel2.jpg"
+            alt=""
+            title=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
 
-              <img src="images/sieraden/ringen/ring-zoeca-jewel1.jpg" alt="" title="" class="img-fluid">
-              <img src="images/sieraden/ringen/ring-zoeca-jewel2.jpg" alt="" title="" class="img-fluid">
-             
-
-  
-            </div>
-          </div>
-        </section>
-
-   <!-- Footer -->
-   <footer class="page-footer font-small  pt-4 text-dark bg-light">
+    <!-- Footer -->
+    <footer class="page-footer font-small  pt-4 text-dark bg-light">
       <!-- Footer Links -->
       <div class="container text-center text-md-left">
         <!-- Footer links -->
@@ -331,7 +563,10 @@
             <!--Copyright-->
             <p class="text-center text-md-left">
               © 2019 Copyright:
-              <a href="https://github.com/orgs/BeCode-Team-Exercises/teams/kabagent-redesign-team" target="_blank">
+              <a
+                href="https://github.com/orgs/BeCode-Team-Exercises/teams/kabagent-redesign-team"
+                target="_blank"
+              >
                 <strong class="text-dark"> kabagent.be</strong>
               </a>
             </p>
@@ -373,17 +608,22 @@
       <!-- Footer Links -->
     </footer>
     <!-- Footer -->
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
