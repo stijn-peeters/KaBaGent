@@ -168,49 +168,75 @@
     </div>
 
     <!-- map en contactinfo -->
-    <div class="jumbotron-fluid p-4 p-md-5 text-dark">
-      <div class="row">
-        <div class="col-3 col-md-6 p-3  my-auto">
-          <div class="container ">
-            <h2 class="display-4 font-italic">Sieraden</h2>
-            <p class="lead my-3">
-              Multiple lines of text that form the lede, informing new readers
-              quickly and efficiently about what’s most interesting in this
-              post’s contents.
+    <div class="row px-5" style="background-color:#fcf5ed">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 ">
+        <!--Card-->
+        <div class="card">
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Contactgegevens</h4>
+            <!--Text-->
+            <p class="card-text">
+              KaBa Accessoires <br />
+              Hoogpoort 5 <br />
+              9000 Gent <br />
+              Tel 09 224 48 00 <br />
+              <a href="mailto:info@kabagent.be">info@kabagent.be</a> <br />
             </p>
-            <button type="button" class="btn  btn-outline-dark bg-transparent">
-              Meer Over Ons
-            </button>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14186.919990819424!2d3.710354955687016!3d51.05462344265468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c371473d12bde5%3A0x87e996b3cde7cefe!2sHoogpoort%205%2C%209000%20Gent!5e0!3m2!1sen!2sbe!4v1572267599720!5m2!1sen!2sbe"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen="0"
+              ></iframe>
+            </div>
           </div>
         </div>
-        <div class="col-3 col-md-6 px-0">
-          <img
-            class="img-fluid"
-            src="images/hero-image.jpg"
-            alt="store image"
-          />
-        </div>
-        <div class="col-3 col-md-6 p-3  my-auto">
-          <div class="container ">
-            <h2 class="display-4 font-italic">Sieraden</h2>
-            <p class="lead my-3">
-              Multiple lines of text that form the lede, informing new readers
-              quickly and efficiently about what’s most interesting in this
-              post’s contents.
-            </p>
-            <button type="button" class="btn  btn-outline-dark bg-transparent">
-              Meer Over Ons
-            </button>
-          </div>
-        </div>
-        <div class="col-3 col-md-6 px-0">
-          <img
-            class="img-fluid"
-            src="images/hero-image.jpg"
-            alt="store image"
-          />
-        </div>
+        <!--/.Card-->
       </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4">
+        <!--Card-->
+        <div class="card">
+          <!--Card image-->
+          <div class="view overlay">
+            <img
+              src="./images/about/Winkel3.jpg"
+              class="card-img-top imgwinkel3"
+              alt="foto binnen in de winkel"
+            />
+          </div>
+
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Openingsuren</h4>
+            <!--Text-->
+            <p class="card-text"></p>
+            <ul>
+              <li>Monday 8:30am–8pm</li>
+              <li>Tuesday 8:30am–8pm</li>
+              <li>Wednesday 8:30am–8pm</li>
+              <li>Thursday 8:30am–8pm</li>
+              <li>Friday 8:30am–8pm</li>
+              <li>Saturday Closed</li>
+              <li>Sunday Closed</li>
+            </ul>
+          </div>
+        </div>
+        <!--/.Card-->
+      </div>
+      <!--Grid column-->
     </div>
 
     <!-- Contact section -->
@@ -224,35 +250,85 @@
           amet numquam iure provident voluptate esse quasi, veritatis totam
           voluptas nostrum quisquam eum porro a pariatur veniam.
         </p>
-
-        <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
-          <div class="col-md-6 mb-md-0 mb-5">
-            <img
-              class="img-fluid"
-              src="images/hero-image.jpg"
-              alt="voorkant winkel"
-            />
-          </div>
-          <!-- Grid column -->
+          <div class="col-md-12 mb-md-0 mb-5">
+            <form
+              action="https://formspree.io/xknwvagq"
+              method="POST"
+              target="_blank"
+            >
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="contact-name"
+                      name="name"
+                      class="form-control"
+                    />
+                    <label for="contact-name" class="">Your name</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-6 text-center my-auto">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <i class="fas fa-map-marker-alt fa-2x blue-text"></i>
-                <p>San Francisco, CA 94126, USA</p>
-              </li>
-              <li>
-                <i class="fas fa-phone fa-2x mt-4 blue-text"></i>
-                <p>+ 01 234 567 89</p>
-              </li>
-              <li>
-                <i class="fas fa-envelope fa-2x mt-4 blue-text"></i>
-                <p class="mb-0">contact@example.com</p>
-              </li>
-            </ul>
+                <!-- Grid column -->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      type="email"
+                      name="_replyto"
+                      id="contact-email"
+                      class="form-control"
+                    />
+                    <label for="contact-email" class="">Your email</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="contact-Subject"
+                      class="form-control"
+                    />
+                    <label for="contact-Subject" class="">Subject</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      type="text"
+                      id="contact-message"
+                      class="form-control md-textarea"
+                      rows="3"
+                    ></textarea>
+                    <label for="contact-message" class="">Your message</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+
+              <div class="text-center text-md-left">
+                <button type="submit" target="_blank">Send</button>
+              </div>
+            </form>
           </div>
           <!-- Grid column -->
         </div>
