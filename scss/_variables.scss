@@ -1,13 +1,15 @@
 $text-color: #222;
 $body-color: #fff;
 
-$primary-color: #F7D3AA;
-$light-color:#DF9D6C;
+$primary-color: #f7d3aa;
+$light-color: #df9d6c;
 $dark-color: #634739;
 $accent-color: #fcf5ed;
 
-.bg-accent{
-    background-color: $accent-color !important;
+.bg-accent {
+  background-color: $accent-color !important;
 }
 
-
+.bg-lightbrown {
+  background-color: $primary-color !important;
+}

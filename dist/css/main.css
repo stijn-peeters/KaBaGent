@@ -9,6 +9,10 @@
   background-color: #fcf5ed !important;
 }
 
+.bg-lightbrown {
+  background-color: #f7d3aa !important;
+}
+
 .productgrid {
   display: -ms-grid;
   display: grid;
@@ -37,7 +41,7 @@
 }
 
 .highlightbar {
-  background-color: #fcf5ed !important;
+  background-color: #fff !important;
 }
 
 .bg-dark {
@@ -184,10 +188,26 @@ nav ul li a {
 
 .lead {
   font-size: 1.4rem;
+  line-height: 120%;
 }
 
 .contact-text {
   color: #000900;
+}
+
+footer h6 {
+  font-weight: bold;
+}
+
+footer input {
+  padding: 3px;
+}
+
+footer button {
+  padding: 0.25rem 0.5rem !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+  border-radius: 0.2rem !important;
 }
 
 /* Media Queries */
