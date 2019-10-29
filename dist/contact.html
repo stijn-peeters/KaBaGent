@@ -10,13 +10,20 @@
     <link rel="icon" type="image/png" href="favicon-icon.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="favicon-icon.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-icon.png" sizes="96x96" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KDV84R4');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KDV84R4");
+    </script>
+    <!-- End Google Tag Manager -->
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -77,9 +84,15 @@
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDV84R4"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KDV84R4"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- highlight -->
     <div class="alert alert-dark border-0 container-fluid my-0 p-1 text-center highlightbar" role="alert" >
         We zijn vandaag open van 08:30am tot 20:00pm :)
@@ -218,11 +231,11 @@
       <!--Grid column-->
       <div class="col-lg-6 col-md-12 mb-4 ">
         <!--Card maps-->
-        <div class="card">
+        <div class="card rounded">
           <!--Card content-->
-          <div class="card-body">
+          <div class="card-body contact-text">
             <h4 class="card-title">Contactgegevens</h4>
-            <p class="card-text">
+            <p class="card-text pl-3">
               KaBa Accessoires <br />
               Hoogpoort 5 <br />
               9000 Gent <br />
@@ -247,7 +260,7 @@
       </div>
       <div class="col-lg-6 col-md-12 mb-4">
         <!--Card hours-->
-        <div class="card">
+        <div class="card rounded">
           <!--Card image-->
           <div class="view overlay">
             <img
@@ -257,18 +270,25 @@
             />
           </div>
           <!--Card content-->
-          <div class="card-body">
+          <div class="card-body contact-text">
             <h4 class="card-title">Openingsuren</h4>
-            <p class="card-text"></p>
-            <ul>
-              <li>Monday 8:30am–8pm</li>
-              <li>Tuesday 8:30am–8pm</li>
-              <li>Wednesday 8:30am–8pm</li>
-              <li>Thursday 8:30am–8pm</li>
-              <li>Friday 8:30am–8pm</li>
-              <li>Saturday Closed</li>
-              <li>Sunday Closed</li>
-            </ul>
+            <div class="container">
+              <ul class="list-group">
+                <div class="row">
+                  <div class="col-6">
+                    <li class="list-group-item">Monday 8:30am–8pm</li>
+                    <li class="list-group-item">Tuesday 8:30am–8pm</li>
+                    <li class="list-group-item">Wednesday 8:30am–8pm</li>
+                  </div>
+                  <div class="col-6">
+                    <li class="list-group-item">Thursday 8:30am–8pm</li>
+                    <li class="list-group-item">Friday 8:30am–8pm</li>
+                    <li class="list-group-item">Saturday Closed</li>
+                  </div>
+                </div>
+                <li class="list-group-item text-center">Sunday Closed</li>
+              </ul>
+            </div>
           </div>
         </div>
         <!--/.Card hours-->
