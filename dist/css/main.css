@@ -32,6 +32,10 @@
   }
 }
 
+.highlightbar {
+  background-color: #fcf5ed !important;
+}
+
 .bg-dark {
   background-color: #634739 !important;
 }
