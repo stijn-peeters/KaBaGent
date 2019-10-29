@@ -127,6 +127,11 @@ nav ul li a {
 }
 
 /* utilities */
+.resize-height {
+  height: 350px;
+  width: 100%;
+}
+
 .title {
   margin-top: 30px;
   margin-bottom: 25px;

@@ -80,6 +80,7 @@ p {
   font-weight: 700;
 }
 
+
 /* nav */
 
 .logo {
@@ -94,6 +95,11 @@ nav ul li a {
 }
 
 /* utilities */
+
+.resize-height {
+  height: 350px;
+  width: 100%;
+}
 
 .title {
   margin-top: 30px;
@@ -124,6 +130,7 @@ nav ul li a {
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+
   iframe {
     left: 0;
     top: 0;
@@ -170,9 +177,11 @@ footer {
   h6 {
     font-weight: bold;
   }
+
   input {
     padding: 3px;
   }
+
   button {
     padding: 0.25rem 0.5rem !important;
     font-size: 0.875rem !important;
@@ -180,4 +189,5 @@ footer {
     border-radius: 0.2rem !important;
   }
 }
+
 /* Media Queries */
