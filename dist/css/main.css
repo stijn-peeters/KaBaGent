@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+.bg-accent {
+  background-color: #fcf5ed !important;
+}
+
 .productgrid {
   display: -ms-grid;
   display: grid;
@@ -135,6 +139,10 @@ nav ul li a {
 
 .lead {
   font-size: 1.4rem;
+}
+
+.lead-big {
+  font-size: 2rem !important;
 }
 
 /* Google Map */
