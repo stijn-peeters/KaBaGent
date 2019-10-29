@@ -130,7 +130,8 @@
         <a
           class="navbar-brand logo text-light title-uppercase"
           href="index.html"
-          >kabagent</a
+          >                <img src="images/logo/logo-kaba-white-full.svg" alt="logo kabagent">
+          </a
         >
 
         <div
@@ -150,7 +151,7 @@
               <a
                 class="nav-link text-white dropdown-toggle"
                 href="handtassen.html"
-                id="navbarDropdownMenuLink"
+                id="navbarDropdownMenuLink1"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -160,7 +161,7 @@
               </a>
               <div
                 class="dropdown-menu w-25"
-                aria-labelledby="navbarDropdownMenuLink"
+                aria-labelledby="navbarDropdownMenuLink1"
               >
                 <a
                   class="dropdown-item text-dark"
@@ -277,7 +278,7 @@
         <!--Card hours-->
         <div class="card rounded">
           <!--Card image-->
-          <div class="view overlay">
+          <div class="view overlay resize-height">
             <img
               src="./images/about/Winkel3.jpg"
               class="card-img-top img-fluid"
@@ -335,6 +336,7 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                   <div class="md-form mb-0">
+                    <label for="contact-name" class="">Aanhef:</label>
                     <input
                       type="text"
                       id="contact-name"
@@ -342,7 +344,6 @@
                       class="form-control"
                       placeholder="Hoe mogen we je aanspreken"
                     />
-                    <label for="contact-name" class="">Aanhef</label>
                   </div>
                 </div>
                 <!-- Grid column -->
@@ -350,6 +351,7 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                   <div class="md-form mb-0">
+                    <label for="contact-email" class="">Email adres:</label>
                     <input
                       type="email"
                       name="_replyto"
@@ -358,7 +360,6 @@
                       placeholder="Waarop kunnen we je best een antwoord sturen?"
                       required
                     />
-                    <label for="contact-email" class="">Email adres</label>
                   </div>
                 </div>
                 <!-- Grid column -->
@@ -370,6 +371,7 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                   <div class="md-form mb-0">
+                    <label for="contact-Subject" class="">Onderwerp:</label>
                     <input
                       type="text"
                       id="contact-Subject"
@@ -377,7 +379,6 @@
                       placeholder="Ik wil graag een nieuwe tas"
                       required
                     />
-                    <label for="contact-Subject" class="">Onderwerp</label>
                   </div>
                 </div>
                 <!-- Grid column -->
@@ -389,26 +390,26 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                   <div class="md-form">
+                    <label for="contact-message" class="">Uw vraag:</label>
                     <textarea
                       id="contact-message"
                       class="form-control md-textarea"
                       rows="3"
                       placeholder="Waneer heb je nieuwe tassen?"
                     ></textarea>
-                    <label for="contact-message" class="">Uw vraag</label>
                   </div>
                 </div>
                 <!-- Grid column -->
               </div>
               <!-- Grid row -->
 
-              <div class="text-center text-md-left">
+              <div class="text-center text-md-left py-4">
                 <button
                   type="submit"
                   class="btn btn-outline-dark mt-1 w-100"
                   value="Open Window"
                 >
-                  Zend
+                  Verstuur
                 </button>
               </div>
             </form>
