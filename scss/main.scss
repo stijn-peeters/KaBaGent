@@ -7,7 +7,6 @@
 @import "variables";
 @import "productgrid";
 @import "highlightbar";
-
 .bg-dark {
   background-color: $dark-color !important;
 }
@@ -15,7 +14,6 @@
 .dropdown-menu {
   background-color: $accent-color;
 }
-
 /*  General  */
 
 body {
@@ -62,9 +60,7 @@ p {
   line-height: 1.5em;
   margin-bottom: 5px;
 }
-
 /* Page title */
-
 /*  Hero  */
 
 .hero-section {
@@ -79,7 +75,6 @@ p {
   color: white;
   font-weight: 700;
 }
-
 
 /* nav */
 
@@ -126,7 +121,6 @@ nav ul li a {
 .lead-big {
   font-size: 2rem !important;
 }
-
 /* Google Map */
 
 .map-responsive {
@@ -134,7 +128,6 @@ nav ul li a {
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-
   iframe {
     left: 0;
     top: 0;
@@ -143,12 +136,7 @@ nav ul li a {
     position: absolute;
   }
 }
-
 /* Contact */
-
-.imgwinkel3 {
-  height: 50vh;
-}
 
 /* Media Queries */
 
@@ -181,11 +169,9 @@ footer {
   h6 {
     font-weight: bold;
   }
-
   input {
     padding: 3px;
   }
-
   button {
     padding: 0.25rem 0.5rem !important;
     font-size: 0.875rem !important;
@@ -193,14 +179,12 @@ footer {
     border-radius: 0.2rem !important;
   }
 }
-
 /* Media Queries */
 
 @media screen and (max-width: 450px) {
   h1 {
     font-size: 2rem !important;
   }
-
   h2 {
     font-size: 1.5rem !important;
   }
