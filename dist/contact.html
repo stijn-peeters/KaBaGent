@@ -293,6 +293,7 @@
                       id="contact-name"
                       name="name"
                       class="form-control"
+                      placeholder="Hoe mogen we je aanspreken"
                     />
                     <label for="contact-name" class="">Aanhef</label>
                   </div>
@@ -307,6 +308,8 @@
                       name="_replyto"
                       id="contact-email"
                       class="form-control"
+                      placeholder="Waarop kunnen we je best een antwoord sturen?"
+                      required
                     />
                     <label for="contact-email" class="">Email adres</label>
                   </div>
@@ -324,6 +327,8 @@
                       type="text"
                       id="contact-Subject"
                       class="form-control"
+                      placeholder="Ik wil graag een nieuwe tas"
+                      required
                     />
                     <label for="contact-Subject" class="">Onderwerp</label>
                   </div>
@@ -341,6 +346,7 @@
                       id="contact-message"
                       class="form-control md-textarea"
                       rows="3"
+                      placeholder="Waneer heb je nieuwe tassen?"
                     ></textarea>
                     <label for="contact-message" class="">Uw vraag</label>
                   </div>
@@ -350,7 +356,13 @@
               <!-- Grid row -->
 
               <div class="text-center text-md-left">
-                <button type="submit" value="Open Window">Zend</button>
+                <button
+                  type="submit"
+                  class="btn btn-outline-dark mt-1 w-100"
+                  value="Open Window"
+                >
+                  Zend
+                </button>
               </div>
             </form>
           </div>
@@ -428,12 +440,13 @@
               <div class="input-box">
                 <div class="input_warp">
                   <input
-                    type="text"
+                    type="email"
                     placeholder="Vul je e-mailadres in"
                     value=""
                     name="email"
                     id="newsletter"
                     class="input-text required-entry validate-email"
+                    required
                   />
                 </div>
                 <div class="button_warp">
