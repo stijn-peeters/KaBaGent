@@ -75,6 +75,7 @@ p {
   color: white;
   font-weight: 700;
 }
+
 /* nav */
 
 .logo {
@@ -87,7 +88,13 @@ nav ul li a {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 /* utilities */
+
+.resize-height {
+  height: 350px;
+  width: 100%;
+}
 
 .title {
   margin-top: 30px;
@@ -130,7 +137,9 @@ nav ul li a {
 .imgwinkel3 {
   height: 50vh;
 }
+
 /* Media Queries */
+
 /* utilities */
 
 .title {
