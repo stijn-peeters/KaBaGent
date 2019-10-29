@@ -113,10 +113,9 @@ nav ul li a {
   font-size: 1.4rem;
 }
 
-.lead-big{
-    font-size:2rem !important;
+.lead-big {
+  font-size: 2rem !important;
 }
-
 
 /* Google Map */
 
@@ -160,9 +159,25 @@ nav ul li a {
 
 .lead {
   font-size: 1.4rem;
+  line-height: 120%;
 }
 
 .contact-text {
   color: #000900;
+}
+
+footer {
+  h6 {
+    font-weight: bold;
+  }
+  input {
+    padding: 3px;
+  }
+  button {
+    padding: 0.25rem 0.5rem !important;
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+    border-radius: 0.2rem !important;
+  }
 }
 /* Media Queries */
