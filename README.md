@@ -30,4 +30,4 @@ We used a MIT [LICENSE](./LICENSE.md) as it fits our needs perfectly.
 Preview of the [new](https://becode-team-exercises.github.io/KaBaGent/).
 View of the [old](http://www.kabagent.be/)
 
-> Created by [Stijn](https://github.com/stijn-peeters)
+> Readme created by [Stijn](https://github.com/stijn-peeters)
