@@ -150,10 +150,6 @@ nav ul li a {
   border: none;
 }
 
-.lead {
-  font-size: 1.4rem;
-}
-
 .lead-big {
   font-size: 2rem !important;
 }
@@ -177,20 +173,6 @@ nav ul li a {
 /* Contact */
 /* Media Queries */
 /* utilities */
-.title {
-  margin-top: 30px;
-  margin-bottom: 25px;
-  min-height: 32px;
-}
-
-.title-uppercase {
-  text-transform: uppercase;
-}
-
-.dropdown {
-  z-index: 1;
-}
-
 .lead {
   font-size: 1.4rem;
   line-height: 120%;
